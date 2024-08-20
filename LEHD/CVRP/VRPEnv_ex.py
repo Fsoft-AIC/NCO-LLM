@@ -461,7 +461,7 @@ class VRPEnv:
             self.raw_data_demand = []
             self.raw_data_cost = []
             self.raw_data_node_flag = []
-            for line in tqdm(open('/cm/shared/daotc2/ML4CO/data/CVRP/vrp100_hgs_train_100w.txt', "r").readlines()[0:episode], ascii=True):
+            for line in tqdm(open('/cm/shared/ML4CO/data/CVRP/vrp100_hgs_train_100w.txt', "r").readlines()[0:episode], ascii=True):
                 line = line.split(",")
 
                 depot_index = int(line.index('depot'))
@@ -508,7 +508,7 @@ class VRPEnv:
             self.raw_data_demand1 = []
             self.raw_data_cost1 = []
             self.raw_data_node_flag1 = []
-            for line in tqdm(open('/home/daotc2/code/NAT/azure_code/LEHD/CVRP/data/vrp150_test_n5000_example.txt', "r").readlines()[0:episode], ascii=True):
+            for line in tqdm(open('/home/code/NAT/azure_code/LEHD/CVRP/data/vrp150_test_n5000_example.txt', "r").readlines()[0:episode], ascii=True):
                 line = line.split(",")
 
                 depot_index = int(line.index('depot'))
@@ -554,7 +554,7 @@ class VRPEnv:
             self.raw_data_demand2 = []
             self.raw_data_cost2 = []
             self.raw_data_node_flag2 = []
-            for line in tqdm(open('/home/daotc2/code/NAT/azure_code/LEHD/CVRP/data/vrp200_test_n5000_example.txt', "r").readlines()[0:episode], ascii=True):
+            for line in tqdm(open('/home/code/NAT/azure_code/LEHD/CVRP/data/vrp200_test_n5000_example.txt', "r").readlines()[0:episode], ascii=True):
                 line = line.split(",")
 
                 depot_index = int(line.index('depot'))

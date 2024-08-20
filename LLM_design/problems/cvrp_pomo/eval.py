@@ -50,7 +50,7 @@ tester_params = {
     'use_cuda': USE_CUDA,
     'cuda_device_num': CUDA_DEVICE_NUM,
     'model_load': {
-        'path': '/home/daotc2/code/NAT/azure_code/POMO/NEW_py_ver/CVRP/POMO/result/saved_CVRP100_model',  # directory path of pre-trained model and log files saved.
+        'path': '/home/code/NAT/azure_code/POMO/NEW_py_ver/CVRP/POMO/result/saved_CVRP100_model',  # directory path of pre-trained model and log files saved.
         'epoch': 30500,  # epoch version of pre-trained model to laod.
     },
     'test_episodes': 10,

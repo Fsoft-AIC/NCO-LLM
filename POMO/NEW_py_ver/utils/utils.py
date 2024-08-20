@@ -39,7 +39,7 @@ import shutil
 
 
 process_start_time = datetime.now(pytz.timezone("Asia/Seoul"))
-result_folder = '/cm/shared/daotc2/ML4CO/results/' + process_start_time.strftime("%Y%m%d_%H%M%S") + '{desc}'
+result_folder = '/cm/shared/ML4CO/results/' + process_start_time.strftime("%Y%m%d_%H%M%S") + '{desc}'
 
 
 def get_result_folder():
