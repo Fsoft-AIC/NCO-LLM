@@ -20,7 +20,7 @@ def main(cfg):
 
     init_client(cfg)
     if cfg.algorithm == "eoh":
-        from baselines.eoh import EoH as LHH
+        from model.eoh import EoH as LHH
     else:
         raise NotImplementedError
 
