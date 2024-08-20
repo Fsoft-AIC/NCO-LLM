@@ -66,7 +66,7 @@ tester_params = {
     'use_cuda': USE_CUDA,
     'cuda_device_num': CUDA_DEVICE_NUM,
     'model_load': {
-        'path': '/cm/shared/ML4CO/results/train_tsp_n100_pomo-lm_h100_v1-200_heu2optimized_C50',  # directory path of pre-trained model and log files saved.
+        'path': 'checkpoint of fine-tuned model here',  # directory path of pre-trained model and log files saved.
         'epoch': 800,  # epoch version of pre-trained model to load.
     },
     'test_episodes': 64,
@@ -105,7 +105,7 @@ def main():
 
 
         # dataset_path = os.path.join(basepath, f"dataset/test{problem_size}_n{n_samples}.pt")
-        dataset_path = '/home/code/NAT/azure_code/LEHD/TSP/data/' + datas[i] +'.txt'
+        dataset_path = '/data' + datas[i] +'.txt' # testing data folder
         env_params['test_file_path'] = dataset_path
         env_params['problem_size'] = problem_size
         env_params['n_samples'] = n_samples

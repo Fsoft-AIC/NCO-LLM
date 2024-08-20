@@ -28,7 +28,7 @@ RRC_budget = 50         # RRC budget
 
 # model_load_path = 'result/20230817_235537_train'
 # model_load_epoch = 40
-model_load_path = 'result/20240811_131027_lehd-lm_finetuning_200_heu2'
+model_load_path = 'checkpoints/tuned_model'
 model_load_epoch = 73
 
 
@@ -45,8 +45,8 @@ test_paras = {
     200: ['vrp200_test_lkh.txt', 128, 128, 0],
     500: ['vrp500_test_lkh.txt', 128, 128, 0],
     1000: ['vrp1000_test_lkh.txt', 128, 128, 0],
-    0: ['vrplib_xl.txt', 4, 1, 0 ]
-    # 0: ['vrplib_192instances.txt', 192, 1, 0 ]
+    0: ['vrplib_xl.txt', 4, 1, 0 ]  # for set-XXL in CVRPLIB
+    # 0: ['vrplib_192instances.txt', 192, 1, 0 ] # for set-X in CVRPLIB
 }
 
 

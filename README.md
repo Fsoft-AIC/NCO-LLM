@@ -50,9 +50,11 @@ This project's structure is clear, the codes are based on .py files, and they sh
 ## Basic Usage
 
 **For Attention Bias via LLM design**
+
 To run the code, run *main.py*
 
 **For Fine-tuning models**
+
 To fine-tune pre-trained models, i.e., LEHD-LLM and POMO-LLM, please run *train_ex.py* in each sub-folders TSP and CVRP in each LEHD and POMO folder.
 
 **For evaluation**

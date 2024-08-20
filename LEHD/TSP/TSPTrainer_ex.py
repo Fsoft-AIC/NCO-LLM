@@ -168,6 +168,7 @@ class TSPTrainer:
         train_num_episode = self.trainer_params['train_episodes']
         episode = 0
         loop_cnt = 0
+        # Fine-tuning on varying sizes
         self.env_params['problem_size'] = random.choice([100, 150, 200])
 
         

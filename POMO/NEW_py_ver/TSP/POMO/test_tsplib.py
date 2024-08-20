@@ -36,7 +36,7 @@ from TSPModel_lm import TSPModel as Model
 
 logger_params = {
     'log_file': {
-        'desc': 'test_tsp100_pomo',
+        'desc': 'test_tsp100_pomo-llm-tsplib',
         'filename': 'log.txt'
     }
 }
@@ -63,8 +63,8 @@ tester_params = {
     'use_cuda': USE_CUDA,
     'cuda_device_num': CUDA_DEVICE_NUM,
     'model_load': {
-        'path': '/cm/shared/ML4CO/results/20240813_012352_train_tsp_n100_pomo-finetune_normalize',  # directory path of pre-trained model and log files saved.
-        'epoch': 730,  # epoch version of pre-trained model to load.
+        'path': 'checkpoint of tuned model here',  # directory path of pre-trained model and log files saved.
+        'epoch': 660,  # epoch version of pre-trained model to load.
     },
     'test_episodes': 64,
     'test_batch_size': 64,

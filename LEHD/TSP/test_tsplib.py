@@ -26,12 +26,8 @@ RRC_budget = 50         # RRC budget
 
 ########### model to load ###############
 
-# model_load_path = 'result/20230509_153705_train'
-# model_load_epoch = 150
-# model_load_path = '/home/code/NAT/azure_code/LEHD/TSP/result/20240808_201125_train_tsp100_lehd_lm_finetuning_10k-500'
-# model_load_epoch = 199
-model_load_path = '/home/code/NAT/azure_code/LEHD/TSP/result/20240813_162237_train_tsp100_lehd_lm_finetuning_10k-bs512'
-model_load_epoch = 241 #[194, 195, 264, 241, 253] (final: 241)
+model_load_path = '/checkpoints/tuned_model'
+model_load_epoch = 241 
 
 ##########################################################################################
 mode = 'test'

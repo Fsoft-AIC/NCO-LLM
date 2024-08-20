@@ -88,7 +88,7 @@ trainer_params = {
     },
     'model_load': {
         'enable': True,  # enable loading pre-trained model
-        'path': '/cm/shared/ML4CO/results/20240802_002715_train_tsp_n100_pomo-lm-h100-v1-C50',  # directory path of pre-trained model and log files saved.
+        'path': 'pre-trained_checkpoint of POMO for TSP',  # directory path of pre-trained model and log files saved.
         'epoch': 510,  # epoch version of pre-trained model to laod.
 
     }

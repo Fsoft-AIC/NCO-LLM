@@ -152,6 +152,8 @@ class CVRPTrainer:
         train_num_episode = self.trainer_params['train_episodes']
         episode = 0
         loop_cnt = 0
+        
+        # Fine-tuning with varying sizes
         # self.env_params['problem_size'] = random.randint(self.extra_params['problem_size'][0], self.extra_params['problem_size'][1])
         self.env_params['problem_size'] = random.choice([200, 500])
         self.trainer_params['train_batch_size'] = int(120*(100/self.env_params['problem_size'])**1.3)

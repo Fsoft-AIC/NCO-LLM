@@ -19,7 +19,7 @@ from LEHD.CVRP.VRPTester import VRPTester as Tester
 # parameters
 
 # testing problem size
-problem_size = 1000
+problem_size = 200 # 200, 500, 1000
 
 # decode method: use RRC or not (greedy)
 Use_RRC = True
@@ -29,7 +29,7 @@ RRC_budget = 50
 
 ########### model ###############
 
-model_load_path = 'result/20240811_131027_lehd-lm_finetuning_200_heu2'
+model_load_path = 'checkpoints/tuned_model'
 model_load_epoch = 80
 
 if not Use_RRC:

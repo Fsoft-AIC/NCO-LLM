@@ -63,7 +63,7 @@ tester_params = {
     'use_cuda': USE_CUDA,
     'cuda_device_num': CUDA_DEVICE_NUM,
     'model_load': {
-        'path': '/ML4CO/results/20240807_113254_train_cvrp_n100_pomo-finetune_normalize_heu(cvrp)',  # directory path of pre-trained model and log files saved.
+        'path': 'checkpoint of tuned model here',  # directory path of pre-trained model and log files saved.
         'epoch': 30700,  # epoch version of pre-trained model to load.
     },
     'test_episodes': 10,
@@ -102,7 +102,7 @@ def main():
         env_params['problem_size'] = problem_size
         n_samples = data_params[problem_size][0]
         
-        dataset_path = os.path.join(basepath, f"data/{datas[i]}")
+        dataset_path = os.path.join(basepath, f"data/{datas[i]}") # testing data path
         env_params['test_file_path'] = dataset_path
         env_params['problem_size'] = problem_size
         env_params['n_samples'] = n_samples

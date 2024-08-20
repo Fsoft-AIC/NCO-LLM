@@ -23,7 +23,7 @@ Use_RRC = True
 
 # RRC budget
 RRC_budget = 50
-model_load_path = '/LEHD/TSP/result/20240813_162237_train_tsp100_lehd_lm_finetuning_10k-bs512'
+model_load_path = '/checkpoints/tuned_model'
 model_load_epoch = 241 
 
 test_paras = {

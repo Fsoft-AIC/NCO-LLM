@@ -20,7 +20,7 @@ from TSPTrainer_ex import TSPTrainer as Trainer
 b = os.path.abspath(".").replace('\\', '/')
 
 mode = 'train'
-training_data_path = "/home/code/NAT/azure_code/LEHD/TSP/datasets/all_TSP_200_instances.txt"
+training_data_path = "/datasets/all_TSP_200_instances.txt" # path to training data
 
 env_params = {
     'data_path':training_data_path,
@@ -69,7 +69,7 @@ trainer_params = {
                },
     'model_load': {
         'enable': True,  # enable loading pre-trained model
-        'path': '/home/code/NAT/azure_code/LEHD/TSP/result/20230509_153705_train',  # directory path of pre-trained model and log files saved.
+        'path': '/result/20230509_153705_train',  # directory path of pre-trained model and log files saved.
         'epoch': 150,  # epoch version of pre-trained model to laod.
                   }
     }

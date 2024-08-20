@@ -30,7 +30,7 @@ from CVRPTrainer_ex import CVRPTrainer as Trainer
 # parameters
 logger_params = {
     'log_file': {
-        'desc': 'train_cvrp_n100_pomo-lm-finetune_normalize_heu1',
+        'desc': 'train_cvrp_n100_pomo-lm-finetune_normalize',
         'filename': 'run_log'
     }
 }

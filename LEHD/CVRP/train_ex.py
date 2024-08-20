@@ -18,7 +18,7 @@ from LEHD.CVRP.VRPTrainer_ex import VRPTrainer as Trainer
 b = os.path.abspath(".").replace('\\', '/')
 
 # training_data_path = '/cm/shared/ML4CO/data/CVRP/vrp100_hgs_train_100w.txt'
-training_data_path = '/home/code/NAT/azure_code/LEHD/CVRP/data/vrp200_test_n5000_example.txt'
+training_data_path = '/data/vrp200_test_n5000_example.txt'
 
 logger_params = {
     'log_file': {
