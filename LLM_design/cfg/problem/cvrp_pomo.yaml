@@ -1,0 +1,6 @@
+problem_name: cvrp_pomo
+problem_type: nco
+obj_type: min
+problem_size: 200 # problem size for training
+func_name: heuristics
+description: I need assistance in designing a new heuristic to improve the solution of the Capacitated Vehicle Routing Problem (CVRP) by incorporating insights from prior heuristics. The CVRP requires finding the shortest path that visits all given nodes and returns to the starting node, with the additional constraint that each node has a demand and each vehicle has a capacity. The total demand of the nodes visited by a vehicle cannot exceed its capacity. If the total demand exceeds the vehicle's capacity, the vehicle must return to the starting node before continuing.

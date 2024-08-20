@@ -1,0 +1,2 @@
+The `heuristics` function takes as input a distance matrix and returns prior indicators of how bad it is to include each edge in a solution. The return is of the same shape as the input. The heuristics should contain negative values for undesirable edges and positive values for promising ones. The
+task can be solved by extracting global and local features (can be latent features) from the distance matrix of nodes and return a heuristic matrix.

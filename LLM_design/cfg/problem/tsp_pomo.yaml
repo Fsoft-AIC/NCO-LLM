@@ -1,0 +1,6 @@
+problem_name: tsp_pomo
+problem_type: nco
+obj_type: min
+problem_size: 200 # problem size for training
+func_name: heuristics
+description: I need assistance in designing a new heuristic to improve the solution of the Traveling Salesman Problem (TSP) by incorporating insights from prior heuristics. The TSP requires finding the shortest path that visits all given nodes and returns to the starting node. The new algorithm computes a heuristic matrix where the distances between nodes are normalized. In this matrix, closer distances are assigned higher positive values, while farther distances are given negative values. This approach aims to prioritize promising edges by assigning them higher scores and to de-prioritize less desirable edges by giving them lower scores.

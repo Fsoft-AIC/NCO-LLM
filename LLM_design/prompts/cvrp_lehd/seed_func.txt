@@ -1,0 +1,7 @@
+def heuristics(distance_matrix: torch.Tensor, demands: torch.Tensor) -> torch.Tensor:
+    total_demand = torch.cumsum(demands, dim=0)
+    vehicle_capacity = total_demand[-1]
+    exceed_capacity_penalty = (total_demand.unsqueeze(1) > vehicle_capacity).float()
+    unmet_demand_penalty = (vehicle_capacity - total_demand).clamp(min=0) / vehicle_capacity
+    heuristics = (1 / (distance_matrix + 1)) * (1 - 0.5 * exceed_capacity_penalty - 0.5 * unmet_demand_penalty)
+    return heuristics

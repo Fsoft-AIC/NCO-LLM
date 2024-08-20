@@ -1,0 +1,12 @@
+def heuristics(distance_matrix: torch.Tensor) -> torch.Tensor:
+    distance_matrix[distance_matrix == 0] = 1e5
+    # beta = 0.3
+    # gamma = 0.5
+    # reciprocal = -1 / distance_matrix
+    # log_values = -torch.log(distance_matrix)
+    # local_heu = log_values + beta * (reciprocal.mean(dim=1, keepdim=True) - reciprocal)
+    # global_mean = distance_matrix.mean()
+    # global_heu = -gamma * torch.log(torch.abs(distance_matrix - global_mean))
+    # heu = local_heu + global_heu
+    heu = distance_matrix
+    return heu
