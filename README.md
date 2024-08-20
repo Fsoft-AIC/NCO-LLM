@@ -55,11 +55,11 @@ To run the code, run *main.py*
 
 **For Fine-tuning models**
 
-To fine-tune pre-trained models, i.e., LEHD-LLM and POMO-LLM, please run *train_ex.py* in each sub-folders TSP and CVRP in each LEHD and POMO folder.
+To fine-tune pre-trained models, i.e., LEHD-LLM and POMO-LLM, please run *train_ex.py* in each sub-folders TSP and CVRP.
 
 **For evaluation**
 
-To evaluate LEHD-LLM and POMO-LLM on synthetic datasets, run *test_ex.py* in each sub-folders.
+To evaluate LEHD-LLM and POMO-LLM on synthetic datasets, run *test_ex.py* in each sub-folders TSP and CVRP.
 
-To evaluate LEHD-LLM and POMO-LLM on TSPLib and CVRPLibe, run *test_tsplib.py* and *test_vrplib.py* in each sub-folders.
+To evaluate LEHD-LLM and POMO-LLM on TSPLib and CVRPLibe, run *test_tsplib.py* and *test_vrplib.py* in each sub-folders TSP and CVRP.
 
