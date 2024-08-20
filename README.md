@@ -1,6 +1,6 @@
 # Empowering Large Scale Generalization of Neural Solvers through Large Language Models for Vehicle Routing Problems
 
-**This code can develop an efficient LLM-guied fine-tuning to enhance the large-scale generalization of Neural Solvers for solving TSP and CVRP.** 
+**This code develop an efficient LLM-guied fine-tuning to enhance the large-scale generalization of Neural Solvers for solving TSP and CVRP.** 
 
 ## Dependencies
 
