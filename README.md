@@ -17,7 +17,7 @@ This repository contains code for an efficient LLM-guided fine-tuning approach t
 
 ## Dependencies
 
-### For LLM Design
+### For Attention bias via LLM Design
 ```bash
 annotated-types==0.6.0
 antlr4-python3-runtime==4.9.3
@@ -42,7 +42,7 @@ tqdm==4.64.1
 typing_extensions==4.9.0
 ```
 
-### For LEHD and POMO
+### For Fine-tuning LEHD and POMO
 ```bash
 Python=3.8.6
 torch==1.12.1
