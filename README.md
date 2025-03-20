@@ -4,11 +4,11 @@ This repository contains code for an efficient LLM-guided fine-tuning approach t
 
 ## Table of Contents
 - [Dependencies](#dependencies)
-  - [For LLM Design](#for-llm-design)
-  - [For LEHD and POMO](#for-lehd-and-pomo)
+  - [For Attention bias via LLM Design](#for-attention-bias-via-llm-design)
+  - [For Fine-tuning LEHD and POMO](#for-fine-tuning-lehd-and-pomo)
 - [Implementation](#implementation)
 - [Basic Usage](#basic-usage)
-  - [LLM Design](#llm-design)
+  - [Attention bias via LLM Design](#attention-bias-via-llm-design)
   - [Fine-tuning Models](#fine-tuning-models)
   - [Evaluation](#evaluation)
 - [Project Structure](#project-structure)
@@ -61,7 +61,7 @@ This project's structure is clear, the codes are based on .py files, and they sh
 
 ## Basic Usage
 
-### LLM Design
+### Attention bias via LLM Design
 
 To run the code, execute *main.py*:
 ```bash
@@ -107,6 +107,40 @@ python POMO-LLM/NEW_py_ver/CVRP/test_vrplib.py
 ```
 
 ## Project Structure
+
+```
+checkpoints/
+    lehd-lm_cvrp_checkpoint-73.pt
+    lehd-lm_tsp_checkpoint-241.pt
+    pomo-lm_cvrp_checkpoint-30700.pt
+    pomo-lm_tsp_checkpoint-3300.pt
+    pomo-lm_tsp_checkpoint-800.pt
+LEHD-LLM/
+    CVRP/
+        .DS_Store
+        heuristics.py
+        test_ex.py
+        test_vrplib.py
+        Tester_inCVRPlib.py
+        train_ex.py
+        VRPEnv_ex.py
+        VRPEnv_inCVRPlib.py
+        ...
+    TSP/
+    utils/
+LICENSE.md
+LLM_design/
+    cfg/
+    main.py
+    model/
+    problems/
+    prompts/
+    requirements.txt
+    utils/
+POMO-LLM/
+    NEW_py_ver/
+README.md
+```
 
 ## License
 This project is licensed under the MIT License - see the *LICENSE.md* file for details.
