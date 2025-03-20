@@ -115,33 +115,12 @@ python POMO-LLM/NEW_py_ver/CVRP/test_vrplib.py
 
 ```
 checkpoints/
-    lehd-lm_cvrp_checkpoint-73.pt
-    lehd-lm_tsp_checkpoint-241.pt
-    pomo-lm_cvrp_checkpoint-30700.pt
-    pomo-lm_tsp_checkpoint-3300.pt
-    pomo-lm_tsp_checkpoint-800.pt
 LEHD-LLM/
     CVRP/
-        .DS_Store
-        heuristics.py
-        test_ex.py
-        test_vrplib.py
-        Tester_inCVRPlib.py
-        train_ex.py
-        VRPEnv_ex.py
-        VRPEnv_inCVRPlib.py
-        ...
     TSP/
     utils/
 LICENSE.md
 LLM_design/
-    cfg/
-    main.py
-    model/
-    problems/
-    prompts/
-    requirements.txt
-    utils/
 POMO-LLM/
     NEW_py_ver/
 README.md
