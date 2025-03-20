@@ -1,12 +1,11 @@
 # Large Language Models powered Neural Solvers for Generalized Vehicle Routing Problems
 
 [![Conference](https://img.shields.io/badge/ICLR-2025-blue)](https://iclr.cc/Conferences/2025)
-[![Workshop](https://img.shields.io/badge/AgenticAI%20Workshop
-)](https://iclragenticai.github.io/)
+[![Workshop](https://img.shields.io/badge/AgenticAI_Workshop-green)](https://iclragenticai.github.io/)
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-red)](https://openreview.net/forum?id=EVqlVjvlt8)
 
 
-This repository contains code for an efficient LLM-guided fine-tuning approach to enhance the large-scale generalization of Neural Solvers for solving TSP (Traveling Salesman Problem) and CVRP (Capacitated Vehicle Routing Problem).
+This repository contains code for an efficient LLM-guided fine-tuning approach to enhance the large-scale generalization of Neural Combinatorial Solvers for solving TSP (Traveling Salesman Problem) and CVRP (Capacitated Vehicle Routing Problem).
 
 ## Table of Contents
 - [Dependencies](#dependencies)
