@@ -1,7 +1,7 @@
 # Large Language Models powered Neural Solvers for Generalized Vehicle Routing Problems
 
 [![Conference](https://img.shields.io/badge/ICLR-2025-blue)](https://iclr.cc/Conferences/2025)
-[![Workshop](https://img.shields.io/badge/AgenticAI_Workshop-green)](https://iclragenticai.github.io/)
+[![Workshop](https://img.shields.io/badge/Workshop-AgenticAI-green)](https://iclragenticai.github.io/)
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-red)](https://openreview.net/forum?id=EVqlVjvlt8)
 
 
