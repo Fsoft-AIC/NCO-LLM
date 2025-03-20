@@ -1,10 +1,23 @@
-# Empowering Large Scale Generalization of Neural Solvers through Large Language Models for Vehicle Routing Problems
+# Large Language Models powered Neural Solvers for Generalized Vehicle Routing Problems
 
-**This code develops an efficient LLM-guided fine-tuning approach to enhance the large-scale generalization of Neural Solvers for solving TSP and CVRP.** 
+This repository contains code for an efficient LLM-guided fine-tuning approach to enhance the large-scale generalization of Neural Solvers for solving TSP (Traveling Salesman Problem) and CVRP (Capacitated Vehicle Routing Problem).
+
+## Table of Contents
+- [Dependencies](#dependencies)
+  - [For LLM Design](#for-llm-design)
+  - [For LEHD and POMO](#for-lehd-and-pomo)
+- [Implementation](#implementation)
+- [Basic Usage](#basic-usage)
+  - [LLM Design](#llm-design)
+  - [Fine-tuning Models](#fine-tuning-models)
+  - [Evaluation](#evaluation)
+- [Project Structure](#project-structure)
+- [License](#license)
+- [Citation](#citation)
 
 ## Dependencies
 
-**For LLM design**
+### For LLM Design
 ```bash
 annotated-types==0.6.0
 antlr4-python3-runtime==4.9.3
@@ -29,7 +42,7 @@ tqdm==4.64.1
 typing_extensions==4.9.0
 ```
 
-**For LEHD and POMO**
+### For LEHD and POMO
 ```bash
 Python=3.8.6
 torch==1.12.1
@@ -42,24 +55,71 @@ vrplib==1.0.0
 
 If any package is missing, just install it following the prompts.
 
-
 ## Implementation
 
 This project's structure is clear, the codes are based on .py files, and they should be easy to read, understand, and run.
 
 ## Basic Usage
 
-**For Attention Bias via LLM design**
+### LLM Design
 
-To run the code, run *main.py*
+To run the code, execute *main.py*:
+```bash
+python main.py
+```
 
-**For Fine-tuning models**
+### Fine-tuning Models
 
-To fine-tune pre-trained models, i.e., LEHD-LLM and POMO-LLM, please run *train_ex.py* in each sub-folders TSP and CVRP.
+To fine-tune pre-trained models, i.e., LEHD-LLM and POMO-LLM, please run *train_ex.py* in each sub-folders TSP and CVRP:
+```bash
+# For TSP
+python LEHD-LLM/TSP/train_ex.py
+python POMO-LLM/NEW_py_ver/TSP/train_ex.py
 
-**For evaluation**
+# For CVRP
+python LEHD-LLM/CVRP/train_ex.py
+python POMO-LLM/NEW_py_ver/CVRP/train_ex.py
+```
 
-To evaluate LEHD-LLM and POMO-LLM on synthetic datasets, run *test_ex.py* in each sub-folders TSP and CVRP.
 
-To evaluate LEHD-LLM and POMO-LLM on TSPLib and CVRPLibe, run *test_tsplib.py* and *test_vrplib.py* in each sub-folders TSP and CVRP.
+### Evaluation
 
+To evaluate LEHD-LLM and POMO-LLM on synthetic datasets, run *test_ex.py* in each sub-folders TSP and CVRP:
+```bash
+# For TSP
+python LEHD-LLM/TSP/test_ex.py
+python POMO-LLM/NEW_py_ver/TSP/test_ex.py
+
+# For CVRP
+python LEHD-LLM/CVRP/test_ex.py
+python POMO-LLM/NEW_py_ver/CVRP/test_ex.py
+```
+
+To evaluate LEHD-LLM and POMO-LLM on TSPLib and CVRPLibe, run *test_tsplib.py* and *test_vrplib.py* in each sub-folders TSP and CVRP:
+```bash
+# For TSP
+python LEHD-LLM/TSP/test_tsplib.py
+python POMO-LLM/NEW_py_ver/TSP/test_tsplib.py
+
+# For CVRP
+python LEHD-LLM/CVRP/test_vrplib.py
+python POMO-LLM/NEW_py_ver/CVRP/test_vrplib.py
+```
+
+## Project Structure
+
+## License
+This project is licensed under the MIT License - see the *LICENSE.md* file for details.
+
+## Citation
+If you find this project useful, please cite our paper:
+```
+@inproceedings{
+anonymous2025large,
+title={Large Language Models powered Neural Solvers for Generalized Vehicle Routing Problems},
+author={Anonymous},
+booktitle={Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation},
+year={2025},
+url={https://openreview.net/forum?id=EVqlVjvlt8}
+}
+```
