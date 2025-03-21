@@ -114,15 +114,15 @@ python POMO-LLM/NEW_py_ver/CVRP/test_vrplib.py
 ## Project Structure
 
 ```
-checkpoints/
+Attention-LLM_design/
 LEHD-LLM/
     CVRP/
     TSP/
     utils/
-LICENSE.md
-LLM_design/
 POMO-LLM/
     NEW_py_ver/
+checkpoints/
+LICENSE.md
 README.md
 ```
 
