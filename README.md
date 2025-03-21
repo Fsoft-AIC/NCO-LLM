@@ -70,7 +70,7 @@ This project's structure is clear, the codes are based on .py files, and they sh
 
 To run the code, execute *main.py*:
 ```bash
-python main.py
+python Attention-LLM_design/main.py
 ```
 
 ### Fine-tuning Models
