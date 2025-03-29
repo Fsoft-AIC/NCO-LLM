@@ -133,9 +133,9 @@ This project is licensed under the MIT License - see the *LICENSE.md* file for d
 If you find this project useful, please cite our paper:
 ```
 @inproceedings{
-anonymous2025large,
+tran2025large,
 title={Large Language Models powered Neural Solvers for Generalized Vehicle Routing Problems},
-author={Anonymous},
+author={Cong Dao Tran and Quan Nguyen-Tri and Huynh Thi Thanh Binh and Hoang Thanh-Tung},
 booktitle={Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation},
 year={2025},
 url={https://openreview.net/forum?id=EVqlVjvlt8}
