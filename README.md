@@ -7,6 +7,8 @@
 
 This repository contains code for an efficient LLM-guided fine-tuning approach to enhance the large-scale generalization of Neural Combinatorial Solvers for solving TSP (Traveling Salesman Problem) and CVRP (Capacitated Vehicle Routing Problem).
 
+> **🏆 Our paper received the Best Paper Honorable Mention Award at the ICLR 2025 Agentic AI Workshop!**
+
 ## Table of Contents
 - [Dependencies](#dependencies)
   - [For Attention bias via LLM Design](#for-attention-bias-via-llm-design)
